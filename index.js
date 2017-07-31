@@ -6,6 +6,7 @@ const board = new five.Board({
 
 board.on('ready', () => {
 
+    console.log("ready");
     let led = new five.Led(6);
     // led.pulse();
     // this.wait(2000);
